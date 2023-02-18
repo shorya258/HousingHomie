@@ -214,7 +214,7 @@ const data = [
       "spacious",
       "غسيل",
     ],
-    isVerified: true,
+    isVerified: false,
     verification: {
       updatedAt: 1651036547.654732,
       eligible: true,
@@ -567,7 +567,7 @@ const data = [
       "اول ساكن",
       "brand new",
     ],
-    isVerified: true,
+    isVerified: false,
     verification: {
       updatedAt: 1673876919.768762,
       eligible: true,
@@ -1007,7 +1007,7 @@ const data = [
       "بلكونة",
       "عوائل",
     ],
-    isVerified: true,
+    isVerified: false,
     verification: {
       updatedAt: 1673525999.952413,
       eligible: true,
@@ -1391,7 +1391,7 @@ const data = [
       "بلكونة",
       "حديثة",
     ],
-    isVerified: true,
+    isVerified: false,
     verification: {
       updatedAt: 1676443871.575928,
       eligible: true,
@@ -1741,7 +1741,7 @@ const data = [
       "غرفتين نوم",
       "غرفتين",
     ],
-    isVerified: true,
+    isVerified: false,
     verification: {
       updatedAt: 1673446626.456893,
       eligible: true,
@@ -2065,7 +2065,7 @@ const data = [
       "مفروش",
       "mall",
     ],
-    isVerified: true,
+    isVerified: false,
     verification: {
       updatedAt: 1676441045.238141,
       eligible: true,
@@ -2482,7 +2482,7 @@ const data = [
       "new",
       "ساكن اول",
     ],
-    isVerified: true,
+    isVerified: false,
     verification: {
       updatedAt: 1676447528.036664,
       eligible: true,

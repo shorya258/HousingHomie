@@ -5,11 +5,11 @@ import data from "./SampleOutput.json";
 export class ViewProperty extends Component {
   constructor(props) {
     super(props);
-    console.log(data, "data");
+    // console.log(data, "data");
     this.state = {
       propertyList: data,
     };
-    console.log("hello I am a constructor from news component");
+    // console.log("hello I am a constructor from news component");
   }
   // async componentDidMount() {
   //   const options = {
@@ -35,9 +35,12 @@ export class ViewProperty extends Component {
   // }
 
   render() {
-    console.log(this.state.propertyList, "property list");
+    // console.log(this.state.propertyList, "property list");
     return (
       <div>
+        <div className="titleWrapper">
+          <h1 className="titleText">Rent a Home</h1>
+        </div>
         <div className="container">
           <div className="row">
             <Filter propertyList={this.state.propertyList} />

@@ -1,0 +1,29 @@
+.titleWrapper {
+  /* width : 100vw !important; */
+  background-color : #7E57C2;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+.titleText {
+  font-size: 4rem;
+  color : white;
+}
+.filterNav {
+  display: "flex";
+  justify-content: "space-evenly";
+  background: "red" !important;
+}
+.dropdown {
+    font-weight : bold;
+    margin-right : 1rem;
+}
+.verifiedBtn {
+    margin-left : auto;
+  margin-right: 2rem;
+  font-weight: bold;
+}
+.PrimaryBtn {
+  background-color: #7e57c2;
+  color: white;
+}

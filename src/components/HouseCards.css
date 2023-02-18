@@ -1,0 +1,43 @@
+
+.card-img-top { 
+    object-fit: cover;
+    height: 300px;
+  }
+  .PrimaryBtn {
+    color : white;
+    font-weight: bold;
+    background-color : #7E57C2 !important;
+  }
+.card {
+    border : 1px solid #7E57C2!important;
+
+    /* box-shadow : 2px 2px 10px black; */
+
+}
+  .cardBody{
+    padding-top : 1rem;
+  }
+
+.roomWrapper { 
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem !important;
+    color: #8879a4;
+    align-items : baseline;
+    padding : 0.5rem;
+    border : 1px solid #7E57C2;
+    margin-bottom : 1rem;
+    border-radius : 7px;
+}
+.roomText {
+    flex-basis : 50%; 
+    text-align : left;
+}   
+.roomValue {
+    flex-basis : 50%; 
+    text-align : center;
+}   
+
+.value {
+    margin-right: 0.5rem;
+}
