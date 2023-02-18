@@ -50,7 +50,7 @@ export class HouseCards extends Component {
               </div>
               <div className="roomWrapper">
                 <div className="roomText">Price</div>
-                <div className="roomValue">Rs{house.price}/month</div>
+                <div className="roomValue">{house.price} AED/month</div>
               </div>
             </div>
             <a href="/" className="btn PrimaryBtn">

@@ -2,15 +2,16 @@ import React, { Component } from "react";
 import Filter from "./Filter";
 import HouseCards from "./HouseCards";
 import data from "./SampleOutput.json";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
 export class ViewProperty extends Component {
   constructor(props) {
     super(props);
-    // console.log(data, "data");
     this.state = {
       propertyList: data,
     };
-    // console.log("hello I am a constructor from news component");
   }
+  //***********Code for dynamic data rendering through API fetch ***************/
   // async componentDidMount() {
   //   const options = {
   //     method: "GET",
@@ -35,11 +36,14 @@ export class ViewProperty extends Component {
   // }
 
   render() {
-    // console.log(this.state.propertyList, "property list");
     return (
       <div>
         <div className="titleWrapper">
-          <h1 className="titleText">Rent a Home</h1>
+          <h1 className="titleText">
+            {" "}
+            <FontAwesomeIcon color="white" icon={faHouse} size={"l"} /> Rent a
+            Home
+          </h1>
         </div>
         <div className="container">
           <div className="row">

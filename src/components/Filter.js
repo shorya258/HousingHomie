@@ -17,9 +17,9 @@ export default class Filter extends Component {
       roomTypes: [],
       bathTypes: [],
       priceRangeArray: [
-        [0, 50],
-        [50, 100],
-        [100, 150],
+        [0, 30],
+        [30, 70],
+        [70, 150],
       ],
       filteredByRoomType: false,
       selectedRoomTypeValue: " ",
