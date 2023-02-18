@@ -248,7 +248,7 @@ export default class Filter extends Component {
                           }
                         >
                           {/* displaying number of bathrooms */}
-                          {priceRange[0]}AED-{priceRange[1]}AED
+                          {priceRange[0]}000AED-{priceRange[1]}000AED
                         </NavDropdown.Item>
                       );
                     })}
