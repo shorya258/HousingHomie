@@ -11,7 +11,7 @@ export class ViewProperty extends Component {
       propertyList: data,
     };
   }
-  //***********Code for dynamic data rendering through API fetch ***************/
+  //************* Code for dynamic data rendering through API fetch **************
   // async componentDidMount() {
   //   const options = {
   //     method: "GET",
@@ -34,13 +34,13 @@ export class ViewProperty extends Component {
   //     propertyList: data,
   //   });
   // }
+  //  *************************************************************************
 
   render() {
     return (
       <div>
         <div className="titleWrapper">
           <h1 className="titleText">
-            {" "}
             <FontAwesomeIcon color="white" icon={faHouse} size={"l"} /> Rent a
             Home
           </h1>

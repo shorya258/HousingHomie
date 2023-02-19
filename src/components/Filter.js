@@ -247,7 +247,7 @@ export default class Filter extends Component {
                             )
                           }
                         >
-                          {/* displaying number of bathrooms */}
+                          {/* displaying price range */}
                           {priceRange[0]}000AED-{priceRange[1]}000AED
                         </NavDropdown.Item>
                       );
@@ -268,6 +268,7 @@ export default class Filter extends Component {
                     onClick={(event) => this.toggleVerified()}
                     className="verifiedBtn"
                   >
+                    {/* displaying  verified button */}
                     {this.state.isVerified ? "Verified" : "Not Verfied"}
                   </Button>
                 </NavItem>
@@ -277,6 +278,7 @@ export default class Filter extends Component {
                     onClick={(event) => this.handleAllFilters()}
                     className="NavBtn"
                   >
+                    {/* button to implement all filters */}
                     Filter
                   </Button>
                 </NavItem>

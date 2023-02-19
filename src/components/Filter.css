@@ -12,7 +12,6 @@
 .filterNav {
   display: "flex";
   justify-content: "space-evenly";
-  background: "red" !important;
 }
 .dropdown {
     font-weight : bold;
